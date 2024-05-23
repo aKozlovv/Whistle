@@ -43,7 +43,7 @@ view.animate([
     .resize(to:CGSize(width: 200, height: 300))
 ])
 ```
-For more pre-made animations you can just extend class "Animation class". Just like this:
+For more pre-made animations you can just extend "Animation" class. Just like this:
 ```sh
 public extension Animation {
     static func fadeIn(duration: TimeInterval = 0.3) -> Animation {
